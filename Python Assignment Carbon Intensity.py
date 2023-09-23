@@ -74,7 +74,7 @@ while townData is None:
     townData = townsToRegion.get(choice)
 
 regionID = townData["regionID"]
-print(f'Your town is in the {region}.')
+print(f'Your town is in the region, {region}.')
 
 # Choice for API calls
 date = input(
